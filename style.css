@@ -1,0 +1,3619 @@
+header {
+    background-color: rgb(0,51,102);
+    width: 100%;
+}
+
+header img {
+    margin: 1%;
+}
+
+header .hf {
+    float: right;
+    margin: 1.5%;
+}
+
+header .hi {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s;
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+header .hi:hover {
+    background-color: #ccc;
+}
+ table {
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: #fff;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(0,51,102);
+    color: white;
+}
+
+table .btn {
+    background-color: #ec7115;
+    border: none;
+    text-align: center;
+    transition-duration: 0.5s;
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 5%;
+}
+
+table .btn:hover {
+    background-color: #e3e3e3;
+    color: #ec7115;
+}
+Table.button {
+    background-color: rgb(0,51,102);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s;
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(102,255,255);
+    color: #000;
+}
+
+.cbtn {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s;
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+
+.cbtn:hover {
+    background-color: #ccc;
+}
+ form {
+    margin-top: 2%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 2px solid rgb(0,51,102);
+}
+
+textarea {
+    outline: none;
+    border: 2px solid #ccc;
+}
+
+textarea:focus {
+    border: 2px solid rgb(0,51,102);
+}
+.container {
+    width: 55%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+}.button, .hf .hi, .cbtn, .btn {
+    background-color: rgb(0,51,102); /* Blue color */
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.3s; /* A smoother transition for hover effect */
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #fff; /* White text on blue button */
+    font-weight: bold;
+}
+
+/* Hover effect for all buttons */
+.button:hover, .hf .hi:hover, .cbtn:hover, .btn:hover {
+    background-color: rgb(0, 40, 85); /* Slightly darker blue on hover */
+    color: #fff; /* Keep text white */
+}
+
+/* Focus state for input fields */
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+    border: 2px solid rgb(0, 51, 102); /* Blue border on focus */
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #002E5D;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+.header-buttons button {
+    background-color: white;
+    color: #002E5D;
+    border: none;
+    margin-left: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.book-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+margin-left: 0px;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book .details {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.book .details p {
+    margin: 5px 0;
+}
+
+.book button {
+    background-color: #002E5D;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cart {
+    width: 200px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: left;
+}
+
+.cart h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cart p {
+    margin: 5px 0;
+}
+
+.cart button {
+    background-color: #002E5D;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.checkout {
+    margin-top: 20px;
+}
+
+.checkout p {
+    font-weight: bold;
+}
+
+.checkout button {
+    background-color: #002E5D;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+.bookstore-container {
+    display: flex;
+    padding: 20px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.book {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.details p {
+    margin: 2px 0;
+}
+
+.details label {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.book button {
+    background-color: #002E5D;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cart {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 120px;
+    position: sticky;
+    top: 20px;
+}
+
+.cart h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cart p {
+    margin: 5px 0;
+}
+
+.cart button, .checkout button {
+    background-color: #002E5D;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.book img {
+    width: 100%;
+    height: 200px; /* Adjust this to your preferred image height */
+    object-fit: cover; /* Ensures images maintain aspect ratio and fill the space */
+    border-radius: 5px;
+}
+
+.details label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.details label input[type="number"] {
+    width: 50px; /* Adjust this width to make it smaller */
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}main-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Book container */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%; /* Adjust this width as needed */
+}
+
+.book {
+    width: 18%; /* Updated width for five books in one row */
+    min-width: 150px; /* Ensure responsiveness */
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Cart styling */
+.cart-container {
+    width: 18%; /* Adjust width for the cart */
+    margin-left: 20px;
+    position: sticky;
+    top: 0;
+}.bookstore-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Book List Section */
+.book-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    gap: 20px;
+    flex-grow: 1; /* Ensures it takes most of the space */
+    flex: 1 1 70%; /* Takes up 70% of the space */
+}
+
+/* Each individual Book */
+.book {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.book img {
+    width: 100%;
+    height: 200px; /* Ensure all images have the same height */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+
+/* Book details */
+.details p {
+    margin: 5px 0;
+}
+
+.details label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.details label input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.book button {
+    background-color: #002E5D;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Cart Section */
+.cart {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 20px;
+    position: sticky;
+    top: 20px;
+    flex: 0 0 30%; /* Ensures the cart takes 30% of the space */
+}
+
+.cart h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cart p {
+    margin: 5px 0;
+}
+
+.cart button, .checkout button {
+    background-color: #002E5D;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bookstore-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-list {
+        flex: 0 0 100%;
+    }
+
+    .cart {
+        flex: 0 0 100%;
+        margin-top: 20px;
+    }
+}
+
+/* Book list section */
+.book-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow the books to wrap if there is not enough space */
+    gap: 20px;
+    flex-grow: 1; /* Allow the books to take up the available space */
+    flex: 1 1 70%; /* Occupy 70% of the container width */
+}
+
+/* Individual book styling */
+.book {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.book img {
+    width: 100%;
+    height: 200px; /* Ensure all images have the same height */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+
+/* Book details section */
+.details p {
+    margin: 5px 0;
+}
+
+.details label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.details label input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.book button {
+    background-color: #002E5D;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Cart section styles */
+.cart {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 20px;
+    position: sticky;
+    top: 20px;
+    flex: 0 0 30%; /* Occupy 30% of the container width */
+}
+
+.cart h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cart p {
+    margin: 5px 0;
+}
+
+.cart button, .checkout button {
+    background-color: #002E5D;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.summary {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Styling for the Order Summary Header */
+.order-summary-header {
+    border-top: 5px solid #007bff;  /* Blue border on top */
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.order-summary-header h2 {
+    font-size: 1.5rem;
+    color: #007bff;  /* Blue text for Order Summary */
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Styling for the Order Successful text */
+.order-success {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styling for the Continue Shopping button */
+.continue-shopping {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.continue-shopping:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+}
+
+/* Order Details Section */
+.order-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.order-details img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.order-details div {
+    flex: 1;
+    text-align: left;
+}
+
+.order-details p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Total Price Styling */
+.total-price {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .summary {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .order-summary-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .order-details {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .order-details img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .order-details div {
+        margin-left: 0;
+    }
+
+    .continue-shopping {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+}/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cart Section */
+.cart-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    border-radius: 8px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff3f5; /* Light pink background */
+}
+
+.cart-header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    
+}
+
+.cart-header i {
+    margin-right: 10px;
+}
+
+.cart-header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#cart-list {
+    margin: 20px 0;
+    list-style: none;
+    padding: 0;
+}
+
+#cart-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#cart-total {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#checkout {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#checkout:hover {
+    background-color: #555;
+}
+
+/* Cart Summary */
+.cart-summary {
+    width: 25%;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.cart-summary table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-summary th {
+    text-align: left;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px 8px 0 0;
+}
+
+.cart-summary td {
+    padding: 10px;
+    text-align: center;
+}
+
+.cart-summary img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cart-summary input[type="submit"] {
+    padding: 12px 24px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cart-summary input[type="submit"]:hover {
+    background-color: #555;
+}/* Cart section styling */
+.cart-section {
+    width: 300px; /* You can adjust this value as needed */
+    margin-left: 20px; /* Adjusts the spacing between the cart and other sections */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Cart header styling to match the header */
+.cart-section .cart-header {
+    background-color: #002E5D; /* Matches header background color */
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.cart-section .cart-header i,
+.cart-section .cart-header img {
+    margin-right: 10px;
+}
+
+/* Cart item list styling */
+.cart-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cart-section p {
+    font-weight: bold;
+    color: #002E5D; /* Match header color */
+    margin-top: 10px;
+}
+
+/* Checkout button to match header buttons */
+.cart-section button {
+    background-color: #002E5D; /* Matches header button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Hover effect for checkout button */
+.cart-section button:hover {
+    background-color: #001f3d; /* Darker blue for hover effect */
+    color: #fff;
+}
+
+/* Total price styling */
+#cart-total {
+    font-weight: bold;
+    color: #002E5D;
+}
+#checkout {
+    background-color: #002E5D; /* Blue color matching header and other buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjust padding for better button size */
+    cursor: pointer;
+    width: 100%; /* Full width of the cart section */
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Hover effect for checkout button */
+#checkout:hover {
+    background-color: #001f3d; /* Darker blue on hover */
+    color: white; /* Keep text white */
+}
+
+/* Focus state (optional, but recommended for accessibility) */
+#checkout:focus {
+    outline: none;
+    box-shadow: 0 0 3px #002E5D;
+}
+/* You can add any other styles for cart list or cart items if needed *//* Cart item list styling */
+.cart-section #cart-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.cart-section .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.cart-section .cart-item .item-name {
+    font-size: 16px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.cart-section .cart-item .item-quantity input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cart-section .cart-item .item-price {
+    font-weight: bold;
+}
+
+.cart-section .cart-item .remove-item {
+    background-color: #ec7115; /* Orange remove button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cart-section .cart-item .remove-item:hover {
+    background-color: #e3e3e3;
+    color: #ec7115;
+}
+
+/* Total price styling */
+#cart-total {
+    font-weight: bold;
+    color: #002E5D; /* Match header color */
+}
+
+/* Checkout button styling */
+#checkout {
+    background-color: #002E5D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#checkout:hover {
+    background-color: #001f3d;
+    color: white;
+}.cart-section {
+    width: 300px; /* Adjust as needed */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.cart-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart-header h2 {
+    font-size: 20px;
+}
+
+.cart-header i,
+.cart-header img {
+    margin-right: 5px;
+}
+
+ul#cart-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item span {
+    margin-right: 10px;
+}
+
+.cart-item input {
+    width: 40px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.cart-item button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-item button:hover {
+    background-color: #c0392b;
+}
+
+.apply-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.apply-section input {
+    width: 100px;
+    padding: 5px;
+}
+
+.apply-section button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.apply-section button:hover {
+    background-color: #27ae60;
+}
+
+#cart-total {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#checkout {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#checkout:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cart-section {
+        width: 100%;
+    }
+
+    .cart-header h2 {
+        font-size: 18px;
+    }
+    
+    .cart-item span {
+        font-size: 14px;
+    }
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between; /* Aligns the items and remove button horizontally */
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd; /* Optional: Adds a border to separate items */
+}
+
+.cart-item .item-name,
+.cart-item .item-quantity,
+.cart-item .item-price {
+    flex: 1; /* Makes each of these items take equal space */
+    text-align: left;
+}
+
+.cart-item .remove-item {
+    background-color: #ec7115;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for remove button */
+.cart-item .remove-item:hover {
+    background-color: #d66012;
+}
+
+/* Ensure that the cart section and items adjust to smaller screens */
+.cart-section {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.cart-item input[type="number"] {
+    width: 40px; /* Adjust the width of quantity input */
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.cart-item .item-price {
+    font-weight: bold;
+}
+
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .cart-item {
+        flex-direction: column; /* Stack the items vertically on small screens */
+        text-align: center;
+    }
+    .cart-item .item-name,
+    .cart-item .item-quantity,
+    .cart-item .item-price {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .cart-item .remove-item {
+        width: 100%; /* Make remove button span the full width on small screens */
+        margin-top: 10px;
+    }
+}
+.cart-section {
+    width: 100%; /* Ensure it takes up full width */
+    max-width: 400px; /* Optionally limit max width */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Order Summary Section */
+.order-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.order-success {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Button Style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Order Details Section */
+.order-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Order Item Style */
+.order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.order-item-image {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.order-item-info p {
+    margin: 5px 0;
+}
+
+.order-item-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.order-item-price {
+    color: #333;
+}
+
+.order-item-quantity {
+    color: #555;
+}
+
+/* Total Price Section */
+.total-price {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .order-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .order-item-image {
+        max-width: 80px;
+        max-height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .order-item-info p {
+        font-size: 14px;
+    }
+
+    .order-summary {
+        padding: 15px;
+    }
+
+    .total-price {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .order-summary {
+        padding: 10px;
+    }
+
+    .order-summary-header {
+        font-size: 20px;
+    }
+
+    .order-success {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+.order-summary {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+  }h2 {
+    text-align: center;
+  }body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .register, .order-summary {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Form and Order Summary Styles */
+.register, .order-summary {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    width: 30%;
+    background-color: #f4f4f4;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .register, .order-summary {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    input, select, textarea, button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .register, .order-summary {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for the page */
+    min-height: 100vh; /* Ensure body covers entire height */
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px; /* Larger title size */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for inputs */
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    font-size: 16px; /* Larger text inside inputs */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Larger button text */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Header with Logo and Logout */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    height: 80px; /* Fixed height for the header */
+    border-bottom: 2px solid #007bff; /* Blue border at the bottom */
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.hf input {
+    background-color: #f44336; /* Red logout button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hf input:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Form and Order Summary Styles */
+.register, .order-summary {
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    max-width: 900px; /* Increased width */
+    margin: 40px auto; /* Center the divs and add space from top */
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    min-height: 400px; /* Ensure the divs fill more space */
+}
+
+/* Textarea Styling */
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    width: 30%;
+    background-color: #f9f9f9;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .register, .order-summary {
+        max-width: 100%; /* Full width for smaller devices */
+        padding: 30px;
+    }
+
+    input, select, textarea, button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 15px;
+        height: 70px; /* Smaller header on very small screens */
+    }
+
+    .register, .order-summary {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Neutral background */
+    min-height: 100vh; /* Ensure body covers entire height */
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px; /* Adjusted size for heading */
+    margin-bottom: 15px; /* Reduced space under the heading */
+}
+
+label {
+    display: block;
+    margin: 8px 0 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Neutral border */
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+button {
+    background-color:  #840e3d; /* Soft green */
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;/* Darker green on hover */
+}
+
+/* Header with Logo and Logout */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px; /* Less padding */
+    background-color: #fff;
+    border-bottom: 2px solid #ddd; /* Lighter border */
+    height: 70px; /* Reduced header height */
+}
+
+.logo {
+    max-width: 120px; /* Adjusted logo size */
+    height: auto;
+}
+
+.hf input {
+    background-color: #f44336; /* Red logout button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hf input:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+ /* Cart Section Styling */
+.cart-section {
+    background-color:white; /* Light pink background color */
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-header i, .cart-header img {
+    margin-right: 10px;
+}
+
+.cart-header h2 {
+    font-size: 24px;
+    color:white;
+}
+
+#cart-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#cart-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(142, 35, 35, 0.1);
+}
+
+.apply-section {
+    margin-bottom: 20px;
+}
+
+.apply-section input {
+    padding: 10px;
+    font-size: 14px;
+    width: 60%;
+    border: 1px solid #04182e;
+    border-radius: 5px;
+}
+
+.apply-section button {
+    padding: 10px 20px;
+    background-color:  #840e3d;
+    color:white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #010911;
+}
+
+.apply-discount button:hover {
+    background-color :#840e3d;
+}
+
+#cart-total {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+}
+
+#checkout {
+    padding: 15px 30px;
+    background-color: #840e3d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #0056b3;
+}
+
+#checkout:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design for Cart Section */
+@media (max-width: 768px) {
+    .cart-section {
+        width: 90%; /* Make cart section smaller on mobile */
+        padding: 20px;
+    }
+
+    .apply-section input {
+        width: 70%;
+    }
+
+    #cart-total {
+        font-size: 16px;
+    }
+
+    #checkout {
+        width: 100%;
+        padding: 12px 0;
+    }
+}
+* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* Basic styles for the form */
+    form {
+        max-width: 600px;  /* Maximum width for the form */
+        margin: 0 auto;  /* Center the form horizontally */
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+    /* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002E5D;
+    padding: 20px 30px; /* Increased padding for a larger header */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 100px; /* Explicitly set height */
+}
+
+/* Navigation bar */
+.navbar {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end; /* Align navigation to the right */
+}
+
+/* Navigation list */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Navigation links */
+.nav-link {
+    text-decoration: none;
+    color: #ecf0f1; /* Light text color */
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+    background-color: #840e3d; /* Hover background color */
+    color: #fff; /* White text on hover */
+    border-radius: 5px; /* Rounded corners for a smooth effect */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack logo and nav vertically on small screens */
+        align-items: center;
+        height: 120px; /* Increase the header height on mobile */
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        height: 150px; /* Adjust logo size on mobile */
+    }
+}
+    /* Label and input styling */
+    label {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+        display: block;
+    }
+    
+    input[type="text"], input[type="password"], input[type="radio"], textarea {
+        width: 100%;  /* Full width for input fields */
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    textarea {
+        width: 100%;  /* Ensure textarea takes full width */
+    }
+    
+    input[type="radio"] {
+        width: auto; /* Keep radio buttons their default size */
+        margin-right: 10px;
+    }
+    
+    /* Button styling */
+    input[type="submit"], input[type="button"] {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin-top: 10px;
+    }
+    
+    input[type="submit"]:hover, input[type="button"]:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Flexbox for gender radio buttons */
+    label[for="gender"] {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+    }
+    
+    input[type="radio"] {
+        width: auto;
+        margin-right: 10px;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        form {
+            padding: 15px;
+            max-width: 90%;  /* Form takes more space on smaller screens */
+        }
+    
+        h1 {
+            font-size: 1.5em;
+        }
+    
+        label {
+            font-size: 1em;
+        }
+    
+        input[type="text"], input[type="password"], input[type="email"], input[type="radio"], textarea {
+            font-size: 1em;
+            padding: 12px;
+        }
+    
+        input[type="submit"], input[type="button"] {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.2em;
+        }
+    }
+    
+    /* Extra small screens like mobile */
+    @media (max-width: 480px) {
+        form {
+            padding: 10px;
+            max-width: 95%;  /* Form takes even more space on very small screens */
+        }
+    
+        h1 {
+            font-size: 1.3em;
+        }
+    
+        input[type="submit"], input[type="button"] {
+            padding: 12px;
+            font-size: 1.1em;
+        }
+    
+        label {
+            font-size: 0.9em;
+        }
+    
+        input[type="text"], input[type="password"], input[type="email"], textarea {
+            font-size: 0.95em;
+        }
+    
+        /* Ensure gender radio buttons align correctly on small screens */
+        label[for="gender"] {
+            font-size: 1em;
+            display: block;
+        }
+    }/* General styling for the body */
+/* Optional additional links styling */
+.additional-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.additional-links a {
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.additional-links a:hover {
+    text-decoration: underline;
+}/* Styling for the login container */
+
+/* Styling for the login container */
+.login {
+    background-color: #fff; /* White background */
+    padding: 40px;
+    width: 400px; /* Width of the login container */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    border-radius: 12px; /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center items inside the form */
+}
+
+/* Styling for the header section of the login form */
+.login .login-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; /* Space between header and form */
+}
+
+/* Header content (title) */
+.login .register-header-content h2 {
+    font-size: 2em;
+    color: #007bff; /* Blue color for the title */
+    margin: 0;
+}
+
+/* Label and input field styling for the login form */
+.login label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+.login input[type="text"], .login input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+/* Button styling for submit and cancel buttons */
+.login input[type="submit"], .login input[type="button"] {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button and cancel button colors */
+.login input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.login input[type="button"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+.login input[type="button"]:hover {
+    background-color: #c82333;
+}
+
+/* Optional additional links for forgotten password and registration */
+.login .additional-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login .additional-links a {
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login .additional-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments for tablets and smaller screens */
+@media (max-width: 768px) {
+    .login {
+        padding: 20px;
+        width: 90%; /* Form takes up more space on smaller screens */
+    }
+
+    .login .register-header-content h2 {
+        font-size: 1.5em;
+    }
+
+    .login input[type="text"], .login input[type="password"] {
+        font-size: 1em;
+        padding: 14px;
+    }
+
+    .login input[type="submit"], .login input[type="button"] {
+        padding: 15px;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .login {
+        padding: 15px;
+        width: 95%;
+    }
+
+    .login .register-header-content h2 {
+        font-size: 1.3em;
+    }
+
+    .login input[type="submit"], .login input[type="button"] {
+        padding: 12px;
+        font-size: 1.1em;
+    }
+
+    .login label {
+        font-size: 0.9em;
+    }
+
+    .login input[type="text"], .login input[type="password"] {
+        font-size: 0.95em;
+    }
+}.login {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    background-image: url('image/360_F_292905667_yFUJNJPngYeRNlrRL4hApHWxuYyRY4kN.jpg'); /* Replace with the actual image URL */
+    background-size: cover; /* Cover the entire div */
+     /* Center the image */
+    padding: 40px;
+    width: 400px; /* Width of the login container */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    border-radius: 12px; /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items inside the form */
+    color: #007bff; /* Ensure the text color stands out against the background */
+    height: 100vh;
+    width: 100vw;
+}
+
+/* The container that holds both the image and the text content */
+.home-container {
+    position: relative; /* Create a relative positioning context */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide anything that overflows */
+}
+
+/* Image styling */
+.home-container img {
+    width: 100%; /* Make image full-width */
+    height: 100%; /* Make image full-height */
+    object-fit: cover; /* Ensure image covers the area */
+    position: absolute; /* Position it absolutely to fill the container */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    opacity: 80%;
+}
+
+/* Home content (the text inside) */
+.home-content {
+    position: absolute; /* Position it inside the image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center the text */
+    padding: 40px; /* Some padding to prevent the text from sticking to the edges */
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background to make the text readable */
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Heading styling */
+.home-content h1 {
+    font-size: 2.5em; /* Large heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Paragraph styling */
+.home-content p {
+    font-size: 2em; /* Font size for readability */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 10px; /* Spacing between paragraphs */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .home-content h1 {
+        font-size: 2em; /* Slightly smaller heading on smaller screens */
+    }
+
+    .home-content p {
+        font-size: 1em; /* Slightly smaller text on smaller screens */
+    }
+
+    .home-content {
+        width: 80%; /* Make content area wider on smaller screens */
+        padding: 20px;
+    }
+}
+ 
+.error-message { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#840e3d;
+    font-size: 1em;
+    margin-top: 10px;
+}.order-image {
+    width: 100vw;  /* Adjust image width to take full width of its container */
+    max-width: 800px; /* Optional: set a maximum width if the image is too large */
+    height: auto;  /* Maintain the aspect ratio */
+    display: block; /* Ensures the image is a block element, making it behave like a block-level element */
+    margin-top: 20px; /* Add some space above the image */
+    margin-bottom: 20px; /* Optional: Add some space below the image */
+    border-radius: 8px; /* Optional: round the corners */
+}/* Ensure the .editprofile div takes full height and uses flexbox */
+
+/* Background and Layout */
+.editprofile {
+    background-image: url('image/pngtree-blue-alien-face-wallpapers-and-posters-image_2924089.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.editprofile-header-content {
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+ .editprofile form {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+  .editprofile label {
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 1em;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#840e3d;
+}
+
+/* Profile Summary */
+.profile-summary {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.profile-summary p {
+    margin-bottom: 8px;
+}
+
+/* Message Display (Error/Success) */
+.message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.message.success {
+    background-color:#840e3d;
+    color: white;
+}
+
+.message.error {
+    background-color: #f44336;
+    color: white;
+}
+* Background and Layout */
+.editprofile {
+    background-image: url('image/depositphotos_61151365-stock-photo-register.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.editprofile-header-content {
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+ .editprofile form {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+  .editprofile label {
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 1em;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#840e3d;
+}
+/* Container for each book */
+.book {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+/* General Styles */
+.bookstore-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Book List using Grid Layout */
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure content is spaced properly */
+    height: 100%;
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 books per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book-list {
+        grid-template-columns: 1fr; /* 1 book per row on small screens */
+    }
+}
+/* General Styles */
+.bookstore-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Book List Layout */
+.book-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow the books to wrap into rows */
+    gap: 0; /* Remove space between the books */
+    justify-content: space-between; /* Distribute the books across the page */
+}
+
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 0; /* Remove bottom margin between books */
+    width: calc(33.33% - 10px); /* Each book takes up 1/3 of the container width */
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(50% - 10px); /* 2 books per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book {
+        width: 100%; /* 1 book per row on small screens */
+    }
+}
+/* General Styles */
+.bookstore-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Book List Layout */
+.book-list {
+    display: flex;
+    justify-content: space-between; /* Distribute the books evenly across the page */
+    gap: 0; /* No gap between books */
+    flex-wrap: nowrap; /* Ensure all books are in a single row */
+    overflow-x: auto; /* Allows scrolling if books exceed container width */
+}
+
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px; /* Fixed height for all books */
+    margin-right: 0; /* Remove space between books */
+    width: calc(100% / 6 - 10px); /* Each book takes 1/6th of the container width */
+    box-sizing: border-box;
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%;
+    height: 200px; /* Fixed height for all book images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(100% / 3 - 10px); /* 3 books per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book {
+        width: 100%; /* 1 book per row on small screens */
+    }
+}
+/* General Styles */
+.bookstore-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Book List Layout */
+.book-list {
+    display: flex;
+    justify-content: space-between; /* Align books evenly in the row */
+    gap: 0; /* No space between books */
+    overflow-x: auto; /* Horizontal scrolling if books exceed container width */
+}
+
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px; /* Fixed height to ensure equal sizing for all books */
+    width: calc(100% / 6 - 10px); /* Each book takes up 1/6th of the container width, minus the gap */
+    box-sizing: border-box;
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+    height: 100%;
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(100% / 3 - 10px); /* 3 books per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book {
+        width: 100%; /* 1 book per row on small screens */
+    }
+}
+/* General Styles */
+.bookstore-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Book List Layout */
+.book-list {
+    display: flex;
+    justify-content: space-between; /* Align books evenly in the row */
+    gap: 0; /* No space between books */
+    overflow-x: auto; /* Horizontal scrolling if books exceed container width */
+}
+
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px; /* Increased height to ensure details fit */
+    width: calc(100% / 6 - 10px); /* Each book takes up 1/6th of the container width */
+    box-sizing: border-box;
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+    height: auto; /* Remove fixed height to allow for dynamic content */
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(100% / 3 - 10px); /* 3 books per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book {
+        width: 100%; /* 1 book per row on small screens */
+    }
+}
+/* General Styles */
+.bookstore-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Book List Layout */
+.book-list {
+    display: flex;
+    justify-content: space-between; /* Align books evenly in the row */
+    gap: 0; /* No space between books */
+    overflow-x: auto; /* Horizontal scrolling if books exceed container width */
+}
+
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px; /* Increased height to ensure details fit */
+    width: calc(100% / 6 - 10px); /* Each book takes up 1/6th of the container width */
+    box-sizing: border-box;
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+    height: auto; /* Remove fixed height to allow for dynamic content */
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: auto; /* Push the button to the bottom of the book */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the Add to Cart Button */
+.add-to-cart:hover {
+    background-color:#840e3d;
+}
+
+/* Ensure that the button is aligned properly */
+.book form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(100% / 3 - 10px); /* 3 books per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book {
+        width: 100%; /* 1 book per row on small screens */
+    }
+}
+/* General Styles */
+.bookstore-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Book List Layout */
+.book-list {
+    display: flex;
+    justify-content: space-between; /* Align books evenly in the row */
+    gap: 10px; /* Ensure a small gap between the books */
+    flex-wrap: wrap; /* Allow wrapping of books on smaller screens */
+}
+
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px; /* Increased height to ensure details fit */
+    width: calc(100% / 6 - 10px); /* Each book takes up 1/6th of the container width */
+    box-sizing: border-box;
+    min-height: 500px; /* Ensure the height is consistent across all books */
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+    height: auto; /* Remove fixed height to allow for dynamic content */
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: auto; /* Push the button to the bottom of the book */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the Add to Cart Button */
+.add-to-cart:hover {
+    background-color:#840e3d;
+}
+
+/* Ensure that the button is aligned properly */
+.book form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(100% / 3 - 10px); /* 3 books per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book {
+        width: 100%; /* 1 book per row on small screens */
+    }
+}
+/* General Styles */
+.bookstore-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Book List Layout */
+.book-list {
+    display: flex;
+    flex-wrap: wrap;  /* Allow books to wrap on smaller screens */
+    gap: 10px;  /* Small gap between books */
+}
+
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align the content at the top */
+    width: calc(100% / 6 - 10px); /* Each book takes up 1/6th of the container width */
+    box-sizing: border-box;
+    min-height: 550px; /* Ensures enough height for all content including button */
+    max-width: 200px; /* Limit the width of each book */
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+    height: auto; /* Remove fixed height to allow for dynamic content */
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: 10px; /* Adds a small gap before the button */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the Add to Cart Button */
+.add-to-cart:hover {
+    background-color:#840e3d;
+}
+/* Ensure that the button is aligned properly */
+.book form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(100% / 3 - 10px); /* 3 books per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book {
+        width: 100%; /* 1 book per row on small screens */
+    }
+}/* General Styles */
+.bookstore-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Book List Layout */
+.book-list {
+    display: flex;
+    justify-content: space-between;  /* Align books evenly */
+    flex-wrap: wrap;  /* Allow books to wrap on smaller screens */
+    gap: 0;  /* Remove the gap between books */
+}
+
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align content within the book container */
+    width: calc(100% / 6 - 10px); /* Each book takes up 1/6th of the container width */
+    min-height: 550px; /* Ensures enough height for all content including button */
+    max-width: 200px; /* Limit the width of each book */
+    box-sizing: border-box;
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+    height: auto; /* Remove fixed height to allow for dynamic content */
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: 10px; /* Adds a small gap before the button */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the Add to Cart Button */
+.add-to-cart:hover {
+    background-color:#840e3d;
+
+}
+
+/* Ensure that the button is aligned properly */
+.book form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(100% / 3 - 10px); /* 3 books per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book {
+        width: 100%; /* 1 book per row on small screens */
+    }
+}
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align content within the book container */
+    width: calc(100% / 6); /* Each book takes up 1/6th of the container width, no margin space */
+    min-height: 550px; /* Ensures enough height for all content including button */
+    max-width: 200px; /* Limit the width of each book */
+    box-sizing: border-box;
+    margin: 0; /* Remove margin to ensure books sit next to each other */
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+    height: auto; /* Remove fixed height to allow for dynamic content */
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: 10px; /* Adds a small gap before the button */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the Add to Cart Button */
+.add-to-cart:hover {
+    background-color:#840e3d;
+}
+
+/* Ensure that the button is aligned properly */
+.book form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(100% / 3); /* 3 books per row on medium screens, no margin space */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book {
+        width: 100%; /* 1 book per row on small screens */
+    }
+}
+/* Individual Book Container */
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align content within the book container */
+    width: calc(100% / 6); /* Each book takes up 1/6th of the container width */
+    min-height: 550px; /* Ensures enough height for all content including button */
+    max-width: 200px; /* Limit the width of each book */
+    margin: 0; /* Remove margin between books */
+}
+
+/* Book Image Styling */
+.book img {
+    width: 100%; /* Ensure the image fills the width of the container */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px; /* Space between the image and book details */
+}
+
+/* Details Container */
+.book .details {
+    text-align: left;
+    flex-grow: 1; /* Allows details to take up remaining space */
+    padding: 10px 0;
+    height: auto; /* Remove fixed height to allow for dynamic content */
+}
+
+/* Styling for the Book Details */
+.book .details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Labels for Details */
+.book .details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Quantity Section */
+.book .quantity-section {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Quantity Input Styling */
+.book .quantity-section input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: 10px; /* Adds a small gap before the button */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the Add to Cart Button */
+.add-to-cart:hover {
+    background-color:#840e3d;
+}
+
+/* Ensure that the button is aligned properly */
+.book form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Fix for the "Add to Cart" button alignment issue */
+.book .add-to-cart {
+    align-self: flex-end; /* Aligns the "Add to Cart" button properly */
+}
+
+/* Ensure no space between books */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0; /* No gap between books */
+    justify-content: space-between;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(100% / 3); /* 3 books per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book {
+        width: 100%; /* 1 book per row on small screens */
+    }
+}
+.book img {
+    width: 100%; /* Ensure image takes up full width */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Maintain aspect ratio without distortion */
+    border-radius: 8px;
+}
+/* Hover effect for the button */
+button:hover {
+    background-color:#840e3d;
+ /* Color when hovered */
+}
